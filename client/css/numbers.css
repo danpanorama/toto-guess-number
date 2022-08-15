@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.numdiv {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 50px;
+}
+
+.col {
+  height: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.pnum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

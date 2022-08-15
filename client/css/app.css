@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .numdiv {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .input {
+    width: 35px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
